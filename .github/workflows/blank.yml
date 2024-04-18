@@ -12,6 +12,7 @@ jobs:
     - name: Create App
       uses: ./.github/actions/CreateApp
       with:
+        shell: pwsh
         type: PTE
         name: test
         publisher: Thomas Gortemaker
