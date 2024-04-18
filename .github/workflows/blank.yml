@@ -6,6 +6,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2  
+        
     - name: Create App
       uses: ./.github/actions/CreateApp/action.yaml@v1
       with:
