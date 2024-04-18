@@ -9,8 +9,8 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4.1.2  
         
-    - name: Create App
-      uses: ./.github/actions/CreateApp
+    - name: CreateApp
+      uses: Microsoft/AL-GO@v5.0
       with:
         shell: pwsh
         type: PTE
