@@ -10,7 +10,7 @@ jobs:
       uses: actions/checkout@v4.1.2  
         
     - name: Create App
-      uses: .github/actions/CreateApp/action.yaml@v1
+      uses: BC/.github/actions/CreateApp/action.yaml@v1
       with:
         type: PTE
         name: test
