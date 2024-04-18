@@ -7,7 +7,7 @@ jobs:
 
     steps:
     - name: Create App
-      uses: BC/.github/actions/CreateApp/action.yaml@v1
+      uses: ./.github/actions/CreateApp/action.yaml@v1
       with:
         type: PTE
         name: test
