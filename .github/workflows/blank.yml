@@ -17,4 +17,4 @@ jobs:
         name: test
         publisher: Thomas Gortemaker
         idrange: 50000..51000
-        project: 'BC'
+        project: '.github'
