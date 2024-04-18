@@ -10,7 +10,7 @@ jobs:
       uses: actions/checkout@v4.1.2  
         
     - name: CreateApp
-      uses: Microsoft/AL-GO@v5.0
+      uses: Microsoft/AL-GO/Actions/CreateApp@v5.0
       with:
         shell: pwsh
         type: PTE
